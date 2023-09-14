@@ -47,15 +47,21 @@
 </table>
 <hr>
 <h3>Code Display</h3>
-<blockquote > " How to select multiple files with input type file" </blockquote>
-<a href="https://stackoverflow.com/questions/1593225/how-to-select-multiple-files-with-input-type-file">Stack Overflow</a>
+<blockquote > "Embedding Windows Media " </blockquote>
+<a href="https://stackoverflow.com/questions/164/embedding-windows-media-player-for-all-browsers">Stack Overflow</a>
 
 <pre>
-    <form method="post" action="upload.php" enctype="multipart/form-data">
-        <input name='uploads[]' type="file" multiple>
-        <input type="submit" value="Send">
-      </form>
+
+    <object type="video/x-ms-wmv" 
+        data="movie.wmv" 
+         width="320" height="260">
+         <param name="src" 
+         value="movie.wmv" />
+        <param name="autostart" value="true" />
+        <param name="controller" value="true" />
+    </object>
+
 </pre>
-<a href = "https://css-tricks.com/snippets/html/multiple-file-input/">HTML Code snippets</a>
+<a href = "https://css-tricks.com/snippets/html/embedding-windows-media/">HTML Code snippets</a>
 </body>
 </html>
